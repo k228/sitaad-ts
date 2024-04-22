@@ -1,5 +1,5 @@
 import axios, { AxiosInstance } from "axios";
-import { BaseOptions, BaseResponse, SitaadGetAccessTokenResponseInterface } from "interfaces";
+import { BaseOptions, BaseResponse, SitaadGetAccessTokenResponseInterface } from "./interfaces";
 import { Redis } from "ioredis";
 import { ElasticsearchService } from "@nestjs/elasticsearch";
 

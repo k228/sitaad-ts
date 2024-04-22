@@ -1,6 +1,6 @@
-import { BaseOptions } from "interfaces";
-import { ServiceCall } from "service-call";
-import { Shahkar } from "shahkar";
+import { BaseOptions } from "./interfaces";
+import { ServiceCall } from "./service-call";
+import { Shahkar } from "./shahkar";
 
 export class Sitaad {
     protected _shahkar: Shahkar;

@@ -1,7 +1,7 @@
-import { ServiceCall } from "service-call";
+import { ServiceCall } from "./service-call";
 import moment from "moment";
-import { encryptData, generateReqId } from "helpers";
-import { ShahkarResponseInterface } from "interfaces";
+import { encryptData, generateReqId } from "./helpers";
+import { ShahkarResponseInterface } from "./interfaces";
 
 export class Shahkar {
     constructor(private readonly serviceCall: ServiceCall) { }
