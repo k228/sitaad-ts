@@ -1,6 +1,6 @@
 {
   "name": "@yesnohub/sitaad-ts",
-  "version": "0.0.16",
+  "version": "0.0.17",
   "description": "",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
@@ -15,7 +15,7 @@
   },
   "scripts": {
     "build": "rm -rf ./lib && tsc -p ./tsconfig.json",
-    "release": " export $(cat .env | xargs) && standard-version && git push --follow-tags && npm publish"
+    "release": " standard-version && git push --follow-tags && npm publish"
   },
   "keywords": [],
   "author": "",
