@@ -1,8 +1,14 @@
 {
-  "name": "sitaad-sdk",
-  "version": "0.0.2",
+  "name": "@yesnohub/sitaad-ts",
+  "version": "0.0.1",
   "description": "",
   "main": "index.js",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "repository": {
+    "url": "https://github.com/yesnohub/sitaad-ts"
+  },
   "scripts": {
     "build": "rm -rf ./lib && tsc -p ./tsconfig.json",
     "release": "standard-version && git push --follow-tags && npm publish"

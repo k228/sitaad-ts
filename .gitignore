@@ -1,0 +1,10 @@
+lib
+.env
+*.tar.gz
+coverage/*
+sadad-sdk-*
+node_modules
+!coverage/badge.svg
+docs
+
+.idea
