@@ -15,7 +15,7 @@
   },
   "scripts": {
     "build": "rm -rf ./lib && tsc -p ./tsconfig.json",
-    "release": " standard-version && git push --follow-tags && npm publish"
+    "release": " export $(cat .env | xargs) && standard-version && git push --follow-tags && npm publish"
   },
   "keywords": [],
   "author": "",
