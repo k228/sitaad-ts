@@ -1,6 +1,6 @@
 {
   "name": "@yesnohub/sitaad-ts",
-  "version": "0.0.10",
+  "version": "0.0.9",
   "description": "",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
@@ -15,8 +15,7 @@
   },
   "scripts": {
     "build": "rm -rf ./lib && tsc -p ./tsconfig.json",
-    "version": "standard-version",
-    "release": "git remote set-url --add --push origin ${npm_config_url} && npm publish"
+    "release": "standard-version && git push --follow-tags && npm publish"
   },
   "keywords": [],
   "author": "",
