@@ -16,7 +16,7 @@
   "scripts": {
     "build": "rm -rf ./lib && tsc -p ./tsconfig.json",
     "version": "standard-version",
-    "release": "git remote set-url --add --push origin ${npm_config_url} --follow-tags && npm publish"
+    "release": "git remote set-url --add --push origin ${npm_config_url} && npm publish"
   },
   "keywords": [],
   "author": "",
